@@ -807,7 +807,7 @@ static NSString *RKMIMETypeFromAFHTTPClientParameterEncoding(AFHTTPClientParamet
 
 - (RKPaginator *)paginatorWithPathPattern:(NSString *)pathPattern
 {
-    return [self paginatorWithPathPattern:pathPattern withParameters:nil];
+    return [self paginatorWithPathPattern:pathPattern parameters:nil];
 }
 
 #pragma mark - Request & Response Descriptors
