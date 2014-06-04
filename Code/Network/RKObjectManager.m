@@ -789,7 +789,7 @@ static NSString *RKMIMETypeFromAFHTTPClientParameterEncoding(AFHTTPClientParamet
 }
 
 - (RKPaginator *)paginatorWithPathPattern:(NSString *)pathPattern
-                           withParameters:(NSDictionary *)parameters
+                           parameters:(NSDictionary *)parameters
 {
     NSAssert(self.paginationMapping, @"Cannot instantiate a paginator when `paginationMapping` is nil.");
     NSMutableURLRequest *request = [self requestWithMethod:@"GET" path:pathPattern parameters:parameters];
